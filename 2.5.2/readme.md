@@ -1,11 +1,11 @@
 # About#
-Hadoop2.5.2 windows native dll and exe
+hadoop-2.5.2 windows native dll and exe
 
 # What to do #
-1. down the right version of binary files from bin/
+1. download the right version of binary files from bin/
 2. scan winutils.exe if you want
 3. try to run winutils.exe, if it does not work, you need vcredist from M$.(VS2010 or VS2013U5)
-4. move the binary files to %HADOOP_HOME%\bin
+4. copy the binary files to %HADOOP_HOME%\bin
 5. have fun
 
 # How to build #
@@ -28,6 +28,6 @@ The native.sln needs some JNI headers to build, which are already included in th
 # Any difference? #
 1. copy from hadoop-2.5.2-src\hadoop-common-project\hadoop-common\src\main\native
 2. copy from hadoop-2.5.2-src\hadoop-common-project\hadoop-common\src\main\winutils
-3. generate and copy the javah header files
-4. reset the out put path
-5. reconfig the platform(Win32,x86) and config(Debug,Release) out put path
+3. generate and add the javah header files
+4. reconfig the out put path
+5. reconfig the platform(Win32,x86) and config(Debug,Release) and out put path
